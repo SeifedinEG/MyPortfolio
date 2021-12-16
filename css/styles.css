@@ -3425,8 +3425,8 @@ textarea.form-control-lg {
   border-color: #f8f9fa;
 }
 .btn-outline-light:hover {
-  color: #000;
-  background-color: #f8f9fa;
+  color: white;
+  background-color: rgb(67, 106, 143);
   border-color: #f8f9fa;
 }
 .btn-check:focus + .btn-outline-light, .btn-outline-light:focus {
@@ -11528,4 +11528,13 @@ html {
   .textCI{
     font-size: 10px;
   }
+}
+
+.iconweb{
+  color: rgb(67, 106, 143); border: 1px solid rgb(67, 106, 143) ;
+}
+
+.iconweb:hover{
+  background-color: rgb(red, green, blue);
+  color: white;
 }
